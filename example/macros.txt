@@ -1,0 +1,4 @@
+version: 0000
+1 XPMod warningShot #ffffff /pause 0.25;/server playermanager setxpmodifier 20
+2 JediHOLOCRON warningShot #ffffff /pause 0.25;/object createitem object/tangible/jedi/jedi_holocron_light.iff 5
+3 Credits warningShot #ffffff /pause 0.25;/credits <player> <add/subtract> <amount> <bank/cash>
