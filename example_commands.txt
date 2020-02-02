@@ -1,0 +1,14 @@
+/server playermanager <setxpmodifier> <value>
+
+
+
+/gmJediState <player> < 0 | 1 | 2 | 4 | 8 > This command only determines which boxes under the all professions tab are visible in reference to Jedi.
+
+object/tangible/jedi/jedi_holocron_light.iff
+
+/generateCraftedItem object/draft_schematic/armor/armor_module_light.iff 5
+/object <command> [args] Object commands are used to System Generate items into your inventory
+/object createitem object/tangible/jedi/jedi_holocron_light.iff 5
+/object createloot <Loot Groups> [creature combat level] Spawns loot from defined loot group to inventory lootgroup list
+/object createresource <resourceName> [<quantity>] Spawns resource to inventory
+/object createarealoot <loottemplate> [<range>] [<level>]
