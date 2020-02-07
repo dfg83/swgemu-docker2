@@ -81,3 +81,10 @@ You can connect to the MySQL database using `localhost:3306` using any MySQL com
 
 All admin commands will be available to the default admin/admin account. You can find a full list of SWGAdmin commands here: [CommandsV2](https://drive.google.com/file/d/0BwjBDOFpOsM5OEVuMDh1U3BDYnM/view)
 
+
+### Docker
+docker login --username=xxx cloud.canister.io:5000
+
+docker tag swgemu:dev cloud.canister.io:5000/xxx/swgemu:dev
+
+docker push cloud.canister.io:5000/xxx/swg
