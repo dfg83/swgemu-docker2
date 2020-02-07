@@ -83,8 +83,5 @@ All admin commands will be available to the default admin/admin account. You can
 
 
 ### Docker
-docker login --username=xxx cloud.canister.io:5000
-
-docker tag swgemu:dev cloud.canister.io:5000/xxx/swgemu:dev
-
-docker push cloud.canister.io:5000/xxx/swg
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
