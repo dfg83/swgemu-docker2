@@ -81,3 +81,7 @@ You can connect to the MySQL database using `localhost:3306` using any MySQL com
 
 All admin commands will be available to the default admin/admin account. You can find a full list of SWGAdmin commands here: [CommandsV2](https://drive.google.com/file/d/0BwjBDOFpOsM5OEVuMDh1U3BDYnM/view)
 
+
+### Docker
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
