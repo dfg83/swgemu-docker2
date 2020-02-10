@@ -26,6 +26,7 @@ services:
   swgemu:
     depends_on:
       - database
+    build:  /share/CACHEDEV1_DATA/Container/swgemu-docker/swgemu-docker/
     image: swgemu:dev
     hostname: swgemu_server
     container_name: swgemu_server
@@ -42,9 +43,9 @@ services:
       - "44455:44455/udp"
       - "44460:44460"
     volumes:
-      - ./tre:/home/swgemu/Desktop/SWGEmu
-      - ./conf:/app/MMOCoreORB/bin/conf
-      - ./custom_scripts:/app/MMOCoreORB/bin/scripts/custom_scripts
+      - /share/CACHEDEV1_DATA/Container/swgemu-docker/swgemu-docker/tre:/home/swgemu/Desktop/SWGEmu
+      - /share/CACHEDEV1_DATA/Container/swgemu-docker/swgemu-docker/conf:/app/MMOCoreORB/bin/conf
+      - /share/CACHEDEV1_DATA/Container/swgemu-docker/swgemu-docker/custom_scripts:/app/MMOCoreORB/bin/scripts/custom_scripts
       - log:/app/MMOCoreORB/bin/log
       - navmeshes:/app/MMOCoreORB/bin/navmeshes
       - database:/app/MMOCoreORB/bin/databases
