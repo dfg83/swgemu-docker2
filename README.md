@@ -68,6 +68,9 @@ user: admin
 pass: admin
 ```
 
+### Logging into the Server
+Change in Database -> galaxy Table the name and ip address from local to real one
+
 This user account is setup by the [admin_account.sql](sql/02-admin_account.sql) and will have full admin privileges. Additional user accounts can be setup simply by logging in with a new user/pass combination. These accounts will not have full admin rights.
 
 
