@@ -1,3 +1,4 @@
 [submodule "Core3"]
 	path = Core3
 	url = https://github.com/swgemu/Core3.git
+	branch = unstable
